@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Website Example</title>
+</head>
+<body>
+{{> header}}
+
+<! uses the screamIt helper defined in the server.js file the helper can take two or more variables>
+<p>{{screamIt welcomeMessage}}</p>
+
+<p>I'm {{name}}</p>
+<p>I like {{likes}}</p>
+
+{{> footer}}
+</body>
+</html>
